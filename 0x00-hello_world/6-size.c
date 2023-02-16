@@ -2,7 +2,7 @@
 /**
  * main - a program that prints printf function
  *
- * return: 0
+ * return: 0 always (SUCCESS)
  */
 int main(void)
 {
@@ -12,10 +12,10 @@ long int c;
 long long int d;
 char d;
 float f;
-printf("size of char: %lu bytes(S) \n", (unsigned long)sizeof(a));
-printf("Size of an int: %lu bytes(S) \n" (unsigned long)sizeof(b));
-printf("Size of long int: %lu bytes(S) \n" (unsigned long)sizeof(c));
-printf("Size of log long int: %lu bytes(S) \n" (unsigned long)sizeof(d));
-printf("Size of float: %lu bytes(S) \n" (unsigned long)sizeof(f));
+printf("size of char: %zu bytes(S)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %zu bytes(S)\n", (unsigned long)sizeof(b));
+printf("Size of long int: %zu bytes(S)\n", (unsigned long)sizeof(c));
+printf("Size of log long int: %zu bytes(S)\n", (unsigned long)sizeof(d));
+printf("Size of float: %zu bytes(S)\n", (unsigned long)sizeof(f));
 return (0);
 }
