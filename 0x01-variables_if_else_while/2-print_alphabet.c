@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-char ch;
+char c;
 char space = '\n';
-for (ch = 'A' ; ch <= 'Z' ; ch++)
+for (c = 'A' ; c <= 'Z' ; c++)
 {
-putchar(tolower(ch));
+putchar(tolower(c));
 }
 putchar(space);
 return (0);
