@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 * print_alphabet_x10 - print alphabets 10 times
@@ -6,14 +5,9 @@
 *
 * Return: Always 0 (Success)
 */
-
 void print_alphabet_x10(void)
-
-
 {
 int i = 0;
-
-
 while (i <= 9)
 {
 char ch = 'a';
@@ -25,5 +19,4 @@ ch++;
 _putchar ('\n');
 i++;
 }
-
 }
