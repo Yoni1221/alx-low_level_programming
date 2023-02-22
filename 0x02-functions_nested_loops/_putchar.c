@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
  * main - check the code
@@ -7,5 +7,5 @@
  */
 int _putchar(char c)
 {
-    return (write(1,&c,1));
+    return (write(1, &c, 1));
 }
