@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * print_array - return the length of a string
  * @a : name of array
@@ -8,7 +7,6 @@
  * Return: length of string
  *
  */
-
 void print_array(int *a, int n)
 {
 int i;
@@ -25,5 +23,4 @@ printf(", ");
 }
 }
 printf("\n");
-
 }
