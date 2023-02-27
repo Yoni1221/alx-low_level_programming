@@ -1,17 +1,29 @@
+
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * rev_string - return the length of a string
+ * @s : Parameter accept  string
+ * Return: nothng
  *
- * Return: Always 0.
  */
-int main(void)
-{
-    char s[10] = "My School";
 
-    printf("%s\n", s);
-    rev_string(s);
-    printf("%s\n", s);
-    return (0);
+void rev_string(char *s)
+{
+int len = 0;
+char p;
+while (s[len])
+{
+len++;
+}
+len--;
+
+
+while (len >= 0)
+{
+p = s[len];
+
+len--;
+}
+
 }
