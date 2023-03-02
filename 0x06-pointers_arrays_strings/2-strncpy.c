@@ -5,9 +5,9 @@
  * @dest: char pointer variable
  * @src: char pointer variabe
  * @n : byte
- * Return: a pointer to the resulting string dest
+ * Return: a pointer to the resu
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 int i;
 for (i = 0; i < n && src[i] != '\0'; i++)
