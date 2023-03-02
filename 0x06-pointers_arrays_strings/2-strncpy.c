@@ -1,16 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code
+ * _strncat - a function that concatenates two strings
  *
- * Return: Always 0.
+ * @dest: char pointer variable
+ * @src: char pointer variabe
+ * @n : byte
+ * Return: a pointer to the resulting string dest
  */
-int main(void)
+
+char *_strncpy(char *dest, char *src, int n)
 {
-char s1[] = "Hello";
-char s2[] = "World!";
-printf("%d\n", _strcmp(s1, s2));
-printf("%d\n", _strcmp(s2, s1));
-printf("%d\n", _strcmp(s1, s1));
-return (0);
+int i;
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = src[i];
+for (; i < n; i++)
+dest[i] = '\0';
+return (dest);
 }
